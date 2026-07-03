@@ -1,3 +1,9 @@
+安装依赖：
+  pip install -r requirements.txt
+
+下载权重到本地 weights 目录：
+  hf download CCYep/End2End-weights --repo-type model --local-dir weights
+
 运行：
   cd /home/hyp/Code/End2End
   .venv/bin/python asset_smith.py --image /path/to/reference.png --output /path/to/result.glb
