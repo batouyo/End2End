@@ -1,0 +1,9 @@
+运行：
+  cd /home/hyp/Code/End2End
+  .venv/bin/python asset_smith.py --image /path/to/reference.png --output /path/to/result.glb
+
+常用参数：
+  --preprocess_mesh
+  --keep_intermediate
+  --appearance_variant sdxl
+  --seed 12345
